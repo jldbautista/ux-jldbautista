@@ -1,3 +1,33 @@
 title: UX - Joseph Lorenzo Bautista
-description: UX Journal for CSCI431W
-theme: minima
+author:
+  name: jldbautista
+  email: jdbautista1@csuchico.edu
+
+description: >
+  This is my CSCI431W UX website page.
+
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+  show_excerpts: true
+
+  nav_pages:
+    - about.md
+
+  social_links:
+    - title: My Github
+      icon: github
+      url: "https://github.com/jldbautista/ux-jldbautista"
+
+  hide_site_feed_link: true
